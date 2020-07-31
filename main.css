@@ -1,0 +1,314 @@
+:root {
+	--primary-color: #f05361;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: lato;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	padding: 0.6rem;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Utility Classes */
+
+/* Container */
+.container {
+	margin: auto auto;
+	width: 95%;
+}
+
+.hidden {
+	display: none;
+}
+
+.btn {
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	color: #fff;
+	background-color: var(--primary-color);
+	padding: 13px 20px;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: var(--primary-color);
+}
+
+.text-primary {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.l-heading {
+    color: #666;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.s-heading {
+	color: #fff;
+	font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+/* navbar */
+#navbar {
+	margin-top: 0.8rem;
+	background-color: var(--primary-color);
+}
+
+#navbar h1 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+#navbar .hamburger {
+	position: relative;
+	top: -2.4rem;
+	float: right;
+	padding-right: 0.625rem;
+	width: 10%;
+}
+
+#navbar ul {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+/* #navbar ul li {
+	position: fixed;
+	width: 90%;
+	height: 50vh;
+	top: 0;
+	right: 0;
+	text-align: center;
+	z-index: 7;
+} */
+
+#navbar ul li a {
+	display: block;
+	margin: auto auto;
+	width: 90%;
+	text-align: center;
+	padding: 15px 10px;
+	color: #fff;
+}
+
+#navbar ul li a:hover {
+	background-color: #fff;
+	color: var(--primary-color);
+}
+
+header {
+	background: linear-gradient(rgba(255, 255, 255, 0.842), rgba(27, 27, 22, 0.5)), url('../images/web-design.png') no-repeat center center/contain;
+	height: 55vh;
+}
+
+/* Showcase */
+
+#showcase {
+	display: block;
+	text-align: center;
+	line-height: 1.7em;
+}
+
+#showcase .showcase-content h1 {
+	font-size: 2rem;
+	font-family: Montserrat;
+	padding: 5%;
+	margin-top: 15%;
+	color: var(--primary-color);
+}
+
+#showcase .showcase-content hr {
+	border-bottom: 3px solid #fff;
+	width: 30%;
+	margin: 0 35%;
+}
+
+#showcase .showcase-content p {
+	font-size: 1.5rem;
+	padding: 5% 0;
+}
+
+#showcase .showcase-content p span{
+	display: block;
+	line-height: 1.2em;
+	padding-bottom: 1.2rem;
+}
+
+/* Info */
+#info {
+	text-align: center;
+	padding-top: 1.2rem;
+}
+
+#info .info-content h3 span{
+	display: block;
+}
+
+#info .info-content p {
+	color: var(--primary-color);
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#info .info-content p span {
+	display: block;
+}
+
+#info .info-content hr {
+	width: 50%;
+    border-bottom: 0;
+    margin: 15px auto 5%;
+    border-top: 3px solid rgb(112, 107, 107);
+}
+
+
+/* Services */
+
+#services {
+	padding: 5% 0;
+}
+
+/* Web Design */
+
+#services .web-design {
+	display: flex;
+	flex-direction: column-reverse;
+	padding: 5% 5%;
+}
+
+.web-design-right img{
+	width: 60%;
+	margin-left: 25%;
+}
+
+
+/* Mobile Apps */
+
+.mobile-apps {
+	display: flex;
+	flex-direction: column;
+	padding: 5% 5%;
+}
+
+.mobile-apps img {
+	width: 60%;
+	margin-left: 20%;
+}
+
+/* SEO */
+
+.seo {
+	display: flex;
+	flex-direction: column-reverse;
+	padding: 5% 5%;
+}
+
+.seo img {
+	width: 60%;
+	margin-left: 20%;
+}
+
+/* Digital Marketing */
+
+.digital-marketing {
+	display: flex;
+	flex-direction: column;
+	padding: 5% 5%;
+}
+
+.digital-marketing img {
+	width: 60%;
+	margin-left: 20%;
+}
+
+/* Process */
+
+#process-info {
+	text-align: center;
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 5%;
+	padding-bottom: 10%;
+}
+
+#process-info h3 {
+	color: #fff;
+}
+
+#process-info .icons {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 30%;
+	margin: 5% 0;
+}
+
+#process-info hr {
+	width: 50%;
+	margin: 0 25%;
+	border-bottom: 1px solid #fff;
+}
+
+#process-info p {
+	padding: 5% 0;
+}
+
+/* Get In Touch */
+
+.pen-icon {
+	position: relative;
+	width: 25%;
+	left: 37%;
+	margin-top: -15%;
+	margin-bottom: 5%;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	color: rgb(112, 107, 107);
+	line-height: 1.7em;
+}
+
+
+
+footer .main-footer {
+	background-color: var(--primary-color);
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
